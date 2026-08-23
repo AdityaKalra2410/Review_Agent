@@ -24,3 +24,7 @@ def evaluate_rule(expression, context):
 
 def connect():
     return sqlite3.connect("users.db")
+
+
+def normalize(name):
+    return name.strip().lower()
