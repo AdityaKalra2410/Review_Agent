@@ -28,3 +28,7 @@ def connect():
 
 def normalize(name):
     return name.strip().lower()
+
+
+def slugify(name):
+    return name.strip().lower().replace(" ", "-")
