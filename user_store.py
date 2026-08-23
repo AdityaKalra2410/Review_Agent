@@ -32,3 +32,7 @@ def normalize(name):
 
 def slugify(name):
     return name.strip().lower().replace(" ", "-")
+
+
+def titlecase(name):
+    return name.strip().title()
