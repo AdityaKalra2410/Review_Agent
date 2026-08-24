@@ -40,3 +40,7 @@ def titlecase(name):
 
 def initials(name):
     return "".join(p[0].upper() for p in name.split() if p)
+
+
+def shout(name):
+    return name.strip().upper()
