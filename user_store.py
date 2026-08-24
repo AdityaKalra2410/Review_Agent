@@ -36,3 +36,7 @@ def slugify(name):
 
 def titlecase(name):
     return name.strip().title()
+
+
+def initials(name):
+    return "".join(p[0].upper() for p in name.split() if p)
